@@ -2,10 +2,10 @@
 ![albatroz-logo-300](https://github.com/Honorato-Dev/Albatroz/assets/101150943/e3405d9a-8696-4a93-9207-689f421b0402)
 
 
-# Albatroz Recovery API
+# Albatroz Recovery 
 
 
-API to ensure your application's email recovery, deal with forgotten passwords and facilitate sending contacts by email. This document provides an overview of the API's capabilities and how to integrate it into your project.
+Tool to recover session through the forgot password flow, includes API and necessary forms to implement in your project.
 
 ## Features
 

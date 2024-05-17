@@ -13,7 +13,7 @@ API to ensure your application's email recovery, deal with forgotten passwords a
 - Forgot password functionality: Allow users to reset their passwords securely.
 - Contact form with Nodemailer: Send contact messages via email using Nodemailer.
 - Built with Node.js and MongoDB: Utilizes Node.js for server-side logic and MongoDB for data storage.
-- You can also start your application through the is Next.js interface: 'http://localhost:3000'
+
 
 ## Installation
 

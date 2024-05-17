@@ -1,5 +1,5 @@
 
-![albatroz-logo-300](https://github.com/Honorato-Dev/Albatroz/assets/101150943/a78d49da-8aa6-4810-b0d3-a9f4b91d75b3)
+![albatroz-logo-300](https://github.com/Honorato-Dev/Albatroz/assets/101150943/e3405d9a-8696-4a93-9207-689f421b0402)
 
 
 # Albatroz Recovery API

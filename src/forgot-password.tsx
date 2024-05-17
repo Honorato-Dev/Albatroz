@@ -4,7 +4,7 @@ import axios from 'axios';
 import { useForm } from 'react-hook-form';
 import {  toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { getError } from './utils/error';
+import { getError } from './error';
 
 
 

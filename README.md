@@ -19,10 +19,10 @@ Tool to recover session through the forgot password flow, includes API and neces
 
 ### To install the Albatroz Authenticator API, follow these steps:
 
-1. Clone the repository:
+1.  Install packges:
 
 ```bash
-git clone https://github.com/Honorato-Dev/Albatroz.git
+npm i albatroz
 ```
 2. Install dependencies:
 ```bash

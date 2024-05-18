@@ -5,84 +5,45 @@
 # Albatroz Recovery 
 
 
+
+
+## Introduction
 Tool to recover session through the forgot password flow, includes API and necessary forms to implement in your project.
 
-## Features
-
-- User authentication: Securely manage user authentication for your application.
-- Forgot password functionality: Allow users to reset their passwords securely.
-- Contact form with Nodemailer: Send contact messages via email using Nodemailer.
-- Built with Node.js and MongoDB: Utilizes Node.js for server-side logic and MongoDB for data storage.
+Innovative and secure session recovery tool designed to improve user authentication and password recovery processes. The application integrates a robust forget password functionality and a contact form using Nodemailer for email communication. Built with Node.js and React, this tool provides a reliable full-stack solution for modern web applications.
 
 
 ## Installation
 
-### To install the Albatroz Authenticator API, follow these steps:
 
-1.  Install packges:
+
+
 
 ```bash
 npm i albatroz
 ```
-2. Install dependencies:
-```bash
-cd Albatroz
-npm install
-```
-3. Configure environment variables:
 
-   Create a .env file in the root directory and add the following variables:
-```bash
+## Features
 
-NEXTAUTH_URL=
-NEXTAUTH_SECRET=
-MONGODB_URI=
-EMAIL=
-EMAIL_PASS=
-SECRET_KEY=
-SMTP_HOST=
-SMTP_PORT=
-SMTP_USER=
-SMTP_PASSWORD=
-SMTP_SECURE=
-EMAIL_FROM=
-APP_URL=
+   - User Authentication:
+        - Securely manages user authentication, ensuring that only authorized users can access your application.
+        - Implements industry-standard security practices to protect user credentials and session data.
 
-```
-### To configure email reception through the application, we will use Google as an example.
-   - Access your account in settings and look for App Passwords.
-   - Remember 2FA must be eneable for this option show up.
-    ![Screenshot from 2024-04-20 21-14-12](https://github.com/Honorato-Dev/crud-angular-spring/assets/101150943/7cf4c9f4-7435-4339-a35f-b202a30553ba)
-   - Write the name of the application and press "Create".
-    ![Screenshot from 2024-04-20 21-15-35](https://github.com/Honorato-Dev/crud-angular-spring/assets/101150943/86851a68-d2d4-447a-8e40-09ed3fbe9922)
-   - Now the App Password created set it as environment variable EMAIL_PASS= 
-    ![Screenshot from 2024-04-20 21-16-07](https://github.com/Honorato-Dev/crud-angular-spring/assets/101150943/4ae072fa-0468-4c2b-9232-118b0b4384a1)
-   - Set the your email account as a environment variable EMAIL=
+   - Forgot Password Functionality:
+       - Allows users to reset their passwords securely via a robust forgot password flow.
+       - Includes API endpoints and necessary forms to integrate this functionality into your project effortlessly.
 
-4. Seed data from ./utils/data.ts
- URL: http://localhost:3000/api/seed
- - OBS: Delete de file /page/api/seed.ts   after set the comand above
+   - Contact Form with Nodemailer:
+        - Facilitates communication by sending contact messages via email using Nodemailer.
+        - Ensures reliable and timely delivery of contact form submissions to your specified email address.
 
- 
-5. In templates/html configure it to your liking, copy and paste into:
- - pages/api/contactmail.ts
+   - Built with Node.js and MongoDB:
+        - Utilizes Node.js for efficient server-side logic and asynchronous processing.
+        - Employs MongoDB for flexible and scalable data storage solutions, ideal for handling user authentication and session data.
 
- -  return {html: <Content>}
 
-6. Set SMTP data in aplication:
-   - Let's use Brevo to configure SMTP
-    ![Screenshot from 2024-04-20 00-48-10](https://github.com/Honorato-Dev/tech-quiz/assets/101150943/a48ffb84-60fa-4bc2-afd4-aaf72678a4c0)
 
-```bash
-SECRET_KEY=somethingsecret
-SMTP_HOST=SMTP Server
-SMTP_PORT=Port
-SMTP_USER=Login
-SMTP_PASSWORD=<master password>
-SMTP_SECURE=false
-EMAIL_FROM=Sender email
-APP_URL=http://localhost:3000
-```
+
 
 ## Contributing
 

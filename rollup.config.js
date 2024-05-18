@@ -23,5 +23,5 @@ export default {
       }),
       typescript({ objectHashIgnoreUnknownHack: true }),
    ],
-   external: ["react", "react-dom", "axios", "react-toastify", "react-hook-form", "next","next-auth","bcryptjs"],
+   external: ["react", "react-dom","react-email", "axios", "react-toastify", "react-hook-form", "next","next-auth","bcryptjs"],
 };

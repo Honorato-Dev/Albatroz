@@ -80,11 +80,11 @@ const ResetPassword = () => {
       <ToastContainer />
       <div className="h-screen w-screen flex justify-center items-center">
         <div className="w-[500px] p-5 rounded-sm shadow-lg bg-white bg-opacity-70">
-          <h1 className="text-2xl font-bold">Mudar a senha?</h1>
+          <h1 className="text-2xl font-bold">Change password?</h1>
 
           <form onSubmit={submit}>
             <div className="mt-5">
-              <label className="block mb-1">Senha</label>
+              <label className="block mb-1">Password</label>
               <input
                 type="password"
                 value={password}
@@ -95,7 +95,7 @@ const ResetPassword = () => {
               <span style={{ color: 'red' }}>{passwordError}</span>
             </div>
             <div className="mt-5">
-              <label className="block mb-1">Confirmar senha</label>
+              <label className="block mb-1">Confirm password</label>
               <input
                 type="password"
                 value={confirmPassword}

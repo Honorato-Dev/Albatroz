@@ -1,5 +1,4 @@
-
-![albatroz-logo-300](https://github.com/Honorato-Dev/Albatroz/assets/101150943/e3405d9a-8696-4a93-9207-689f421b0402)
+![albatroz-250](https://github.com/Honorato-Dev/Albatroz/assets/101150943/69a78394-3c5d-4bb4-a683-644d715b8150)
 
 
 # Albatroz  

@@ -1,10 +1,13 @@
-![albatroz-250](https://github.com/Honorato-Dev/Albatroz/assets/101150943/69a78394-3c5d-4bb4-a683-644d715b8150)
 
-<img src="image/albatroz-logo.png" alt="Description" width="200" height="200">
-
-
-
+<div align="center">
+   <img src="image/albatroz-logo.png" alt="Description" width="150" height="150">
+   
 # Albatroz  
+</div>
+
+
+
+
 
 
 

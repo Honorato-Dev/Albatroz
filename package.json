@@ -1,13 +1,18 @@
 {
   "name": "albatroz",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "recovery tool",
-  "main": "src/index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "types": "dist/index.d.js",
+  "homepage":"https://albatroz.vercel.app",
+  "repository": {
+    "url":"https://github.com/Honorato-Dev/Albatroz"
+  },
   "scripts": {
     "test": "jest --no-cache",
-    "build": "rollup -c",
-    "start": "rollup -c -w"
+    "build": "tsup"
+    
   },
   "author": "Victor Honorato",
   "license": "MIT",
@@ -25,12 +30,9 @@
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.51.4",
     "react-toastify": "^10.0.5",
-    "rollup": "^4.17.2",
-    "rollup-plugin-typescript2": "^0.36.0",
     "ts-jest": "^29.1.2",
+    "tsup": "^8.0.2",
     "typescript": "^5.4.5"
-  },
-  "dependencies": {
-    "rollup-plugin-tailwindcss": "^1.0.0"
   }
+ 
 }

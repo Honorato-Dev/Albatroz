@@ -5,13 +5,10 @@ import { useForm } from 'react-hook-form';
 import {  toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { getError } from './error';
+import { FormType } from './types';
 
 
 
-interface FormType {
-  email: string;
-  password?: string;
-}
 
 const ForgotPasswordScreen = () => {
   const [loading, setLoading] = React.useState(false);

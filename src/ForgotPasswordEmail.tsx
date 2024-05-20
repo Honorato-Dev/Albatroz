@@ -1,9 +1,10 @@
 import * as React from 'react';
+import { TParams } from './types';
 
 const ForgotPasswordEmail = ({
     params
   }:{
-    params: { name: string; url: string; email:string; };
+    params: TParams;
     
   }) => {
   return (

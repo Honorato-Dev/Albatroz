@@ -1,9 +1,3 @@
-export * from "./ForgotPasswordEmail"
-
-export * from "./ForgotPasswordScreen"
-
-export * from "./ResetPassword"
-
-export * from "./error"
-
-export * from "./types"
+export { default as ForgotPasswordScreen } from './components/ForgotPasswordScreen';
+export { default as ResetPassword } from './components/ResetPassword';
+export { default as ForgotPasswordEmail } from './components/ForgotPasswordEmail'

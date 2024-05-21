@@ -27,7 +27,64 @@ Innovative and secure session recovery tool designed to improve user authenticat
 ```bash
 npm i albatroz
 ```
+## Overview
 
+```bash
+import React from 'react';
+import { useForm } from 'react-hook-form';
+import { useForgotPassword } from 'albatroz';
+
+
+
+const ForgotPasswordScreen: React.FC = () => {
+  const { loading, submitHandler } = useForgotPassword();
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+
+  return (
+      <div >
+        <h1>Forgot password ?</h1>
+         <form onSubmit={handleSubmit(submitHandler)}>
+          <div>
+            <label htmlFor="email">Email</label>
+            <input
+              type="email
+              placeholder="exemplo@email.com"
+              id="email"
+              autoFocus
+              {...register('email', {
+                required: 'Please enter a valid email ',
+                pattern: {
+                  value: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$/i,
+                  message: 'Please use a valid email format ',
+                },
+              })}
+            />
+            {errors.email && (
+              <div >{errors.email.message}</div>
+            )}
+          </div>
+          <div >
+            <button
+              disabled={loading}
+            >
+              {loading ? 'Processing' : 'Send'}
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  );
+};
+
+export default ForgotPasswordScreen;
+
+
+```
 ## Features
 
    - User Authentication:

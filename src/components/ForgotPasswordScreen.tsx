@@ -45,7 +45,7 @@ const ForgotPasswordScreen: React.FC = () => {
           </div>
           <div className="mt-5">
             <button
-              className="w-full bg-gray-500 hover:bg-gray-700 p-2 rounded-sm text-white"
+              className="w-full bg-gray-500 hover:bg-gray-700 p-2 rounded-sm "
               disabled={loading}
             >
               {loading ? 'Processing' : 'Send'}
